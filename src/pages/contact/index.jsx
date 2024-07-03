@@ -54,6 +54,14 @@ function Contact() {
               className="border border-gray-500 p-[10px] rounded-xl mt-3"
             ></textarea>
           </div>
+          <div className="w-full mt-6 flex justify-center">
+            <button
+              type="submit"
+              className="shadow-sm border-none rounded-full py-3 px-6 bg-green-600 text-white"
+            >
+              ثبت درخواست
+            </button>
+          </div>
         </form>
       </div>
       <div className="mb-7">
