@@ -13,8 +13,8 @@ function Contact() {
           برای پیگیری یا سوال درباره سفارش و ارسال پیام بهتر است از فرم زیر
           استفاده کنید
         </p>
-        <form className="my-5 flex flex-wrap">
-          <div className="flex flex-col my-[10px] w-1/2 px-4">
+        <form className="my-5 flex flex-wrap justify-center">
+          <div className="flex flex-col my-[10px] w-full md:w-1/2 px-4">
             <label htmlFor="fullName">نام و نام خانوادگی</label>
             <input
               type="text"
@@ -22,7 +22,7 @@ function Contact() {
               className="border border-gray-500 p-[10px] rounded-xl mt-3"
             />
           </div>
-          <div className="flex flex-col my-[10px] w-1/2 px-4">
+          <div className="flex flex-col my-[10px] w-full md:w-1/2 px-4">
             <label htmlFor="phone">شماره تماس</label>
             <input
               type="text"
@@ -30,7 +30,7 @@ function Contact() {
               className="border border-gray-500 p-[10px] rounded-xl mt-3"
             />
           </div>
-          <div className="flex flex-col my-[10px] w-1/2 px-4">
+          <div className="flex flex-col my-[10px] w-full md:w-1/2 px-4">
             <label htmlFor="email">ایمیل</label>
             <input
               type="text"
@@ -38,7 +38,7 @@ function Contact() {
               className="border border-gray-500 p-[10px] rounded-xl mt-3"
             />
           </div>
-          <div className="flex flex-col my-[10px] w-1/2 px-4">
+          <div className="flex flex-col my-[10px] w-full md:w-1/2 px-4">
             <label htmlFor="order">شماره سفارش</label>
             <input
               type="text"
@@ -46,7 +46,7 @@ function Contact() {
               className="border border-gray-500 p-[10px] rounded-xl mt-3"
             />
           </div>
-          <div className="flex flex-col my-[10px] w-1/2 px-4">
+          <div className="flex flex-col mt-5 my-[10px] w-full md:w-1/2 px-4">
             <label htmlFor="message">متن پیام</label>
             <textarea
               rows="5"
