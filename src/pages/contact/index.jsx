@@ -64,7 +64,7 @@ function Contact() {
           </div>
         </form>
       </div>
-      <div className="mb-7">
+      <div className="mb-10">
         <div className="flex items-center gap-3 px-4 my-4">
           <FaPhone size="25px" color="#666" />
           <p className="text-[13px]">
