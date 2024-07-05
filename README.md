@@ -12,3 +12,8 @@ click [here](https://www.linkedin.com/in/saman-tofighian/) to see my profile
  | FirstName      | LastName |  Age |
 | ----------- | ----------- | ----------- |
 | Saman      | Tofighian    | 20 |
+
+---
+
+#### start the project in cmd 
+`npm run dev`
