@@ -1,0 +1,137 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "image": "https://meghdadit.com/files/product/66ypme6g1l4ozqncykj6e01t11jhmxmepkwdnznvhbovgs5j00[Medium].jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 پردازنده Core i5 13420H رم 8GB حافظه 512GB SSD گرافیک Intel",
+      "price": 27000000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 2,
+      "image": "https://meghdadit.com/files/product/l5ev8knbm6onfl4eyyicd51v4a2arhy7dk5r1a2a47upb7ixa8[Medium].jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل LOQ پردازنده Core i7 13620H رم 32GB حافظه 1TB SSD گرافیک 6GB 4050",
+      "price": 64600000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 3,
+      "image": "https://meghdadit.com/files/product/p72tdbwxgl0bp3ulf177dwodgau5uoyszcdysdcq3jmv7dkg5r[Medium].jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل Ideapad 1 پردازنده N4020 رم 4GB حافظه 256GB SSD گرافیک Intel",
+      "price": 12000000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 4,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fvsxy36c1oa8153boql86zzyijf8s1zuhepi0tv2i2cpdrr4xph%255blarge%255d.jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل Ideapad 3 پردازنده Core i3 1215U رم 12GB حافظه 1TB 256GB SSD گرافیک Intel",
+      "price": 24500000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 5,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f0g1ysyrxr7xeidobtg2v473j2fssqezoqvraxmp331qvlrf7oc%255blarge%255d.jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 پردازنده Core i5 13420H رم 8GB حافظه 512GB SSD گرافیک Intel",
+      "price": 27000000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 6,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fhr7s6ugypdpr2gkyzeybp5jlz8f2qdkw6qry2ttqowffgdihk6%255blarge%255d.jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل LOQ پردازنده Core i7 13620H رم 32GB حافظه 1TB SSD گرافیک 6GB 4050",
+      "price": 64600000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 7,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fgzzew3fq4yziid23v1ykvw8m45ls6ulg4g6x24ld5s5pfp2uwy%255blarge%255d.jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل Ideapad 1 پردازنده N4020 رم 4GB حافظه 256GB SSD گرافیک Intel",
+      "price": 12000000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    },
+    {
+      "id": 8,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fvsxy36c1oa8153boql86zzyijf8s1zuhepi0tv2i2cpdrr4xph%255blarge%255d.jpg",
+      "text": "لپ تاپ لنوو 15.6 اینچی مدل Ideapad 3 پردازنده Core i3 1215U رم 12GB حافظه 1TB 256GB SSD گرافیک Intel",
+      "price": 24500000,
+      "brand": "lenovo",
+      "alt": "lenovo"
+    }
+  ],
+  "cameras": [
+    {
+      "id": 1,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fxwgvlpr0m37f5rf1zv8igae5cmzhy2qy2z6pnyqfh5pob8ni25%255blarge%255d.jpg",
+      "text": "دوربین دیجیتال نیکون D 3400 کیت 18-55 VR",
+      "price": 23200000,
+      "brand": "Nikon",
+      "alt": "Nikon"
+    },
+    {
+      "id": 2,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fq4w4185ylbm1qomet5kxga68fhqywgdlvqkwmq2civ6s4lc2w7%255blarge%255d.jpg",
+      "text": "دوربین عکاسی دیجیتال کانن مدل EOS 250D Kit EF-S به همراه لنز 55-18  ",
+      "price": 19800000,
+      "brand": "canon",
+      "alt": "canon"
+    },
+    {
+      "id": 3,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252fe2fbiqacqsdpk6ap6c0u4ucnf2d628ga406zr8goq0inmoav2h%255blarge%255d.jpg",
+      "text": "دوربین دیجیتال نیکون دی 5300 کیت 18-55 VR AFP",
+      "price": 38000000,
+      "brand": "Nikon",
+      "alt": "Nikon"
+    },
+    {
+      "id": 4,
+      "image": "https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f4xiaiacvrtk41nptu6px230x4bs6rc5xvcmduuyy7a4kc1k34g%255blarge%255d.jpg",
+      "text": "دوربین دیجیتال نیکون D7500 With 18-140mm",
+      "price": 1000000,
+      "brand": "Nikon",
+      "alt": "Nikon"
+    }
+  ],
+
+  "mobiles": [
+    {
+      "id": 1,
+      "image": "https://meghdadit.com/files/product/0v5bx1tlgy0ow8oxju1b83hy6r4g5wzmnu35mi42rixe5gvv1q[Medium].png",
+      "text": "گوشی موبایل اپل مدل iPhone 13 ظرفیت 256GB دو سیم کارت",
+      "price": 52000000,
+      "brand": "apple",
+      "alt": "apple"
+    },
+    {
+      "id": 2,
+      "image": "https://meghdadit.com/files/product/tlem5br52o8z28edmsw6u601tyspuq3d075zclb6cg6ueo0xus[Medium].png",
+      "text": "گوشی موبایل اپل مدل iPhone 13 Pro ظرفیت 256GB دو سیم کارت",
+      "price": 23500000,
+      "brand": "apple ",
+      "alt": "apple "
+    },
+    {
+      "id": 3,
+      "image": "https://meghdadit.com/files/product/yrky8vqbz2g86uuh5bzpcu3wzcw4ttpipq3c61e7jhc5mrx7up[Medium].png",
+      "text": "گوشی موبایل اپل مدل iPhone 13 Pro Max ظرفیت 256GB دو سیم کارت اکتیو",
+      "price": 58000000,
+      "brand": "apple ",
+      "alt": "apple "
+    },
+    {
+      "id": 4,
+      "image": "https://meghdadit.com/files/product/ztwua25oq2482aghekcwsveeu42nvz6m1yln7vzzhl4ofjz5g4[Medium].jpg",
+      "text": "گوشی موبایل اپل مدل IPhone 12 Pro با ظرفیت 256GB دو سیم کارت",
+      "price": 20300000,
+      "brand": "apple",
+      "alt": "apple"
+    }
+  ]
+}

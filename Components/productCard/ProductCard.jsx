@@ -1,95 +1,21 @@
-function ProductCard() {
+function ProductCard({ image, alt, text, price }) {
   return (
-    <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 px-12">
+    <section className="w-full">
       <div>
-        <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
-          <figure className="flex justify-center items-center">
-            <img
-              className="h-[250px] object-cover"
-              src="https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f0g1ysyrxr7xeidobtg2v473j2fssqezoqvraxmp331qvlrf7oc%255blarge%255d.jpg"
-              alt="laptop01"
-            />
+        <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer mb-8">
+          <figure className="flex justify-center items-center p-4">
+            <img className="min-h-[240px]" src={image} alt={alt} />
           </figure>
           <div>
             <p className="text-[14px] text-gray-400 text-justify pb-4 px-5">
-              لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 پردازنده Core i5 13420H
-              رم 8GB حافظه 512GB SSD گرافیک Intel
+              {text}
             </p>
           </div>
           <div className="border-t border-gray-300 flex justify-between items-center py-4 px-5">
             <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
               افزودن به سبد خرید
             </button>
-            <span className="text-[15px]">22,500,000</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
-          <figure className=" flex justify-center items-center">
-            <img
-              className="h-[250px] object-cover"
-              src="https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f0g1ysyrxr7xeidobtg2v473j2fssqezoqvraxmp331qvlrf7oc%255blarge%255d.jpg"
-              alt="laptop01"
-            />
-          </figure>
-          <div>
-            <p className="text-[14px] text-gray-400 text-justify pb-4 px-5">
-              لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 پردازنده Core i5 13420H
-              رم 8GB حافظه 512GB SSD گرافیک Intel
-            </p>
-          </div>
-          <div className="border-t border-gray-300 flex justify-between items-center py-4 px-5">
-            <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
-              افزودن به سبد خرید
-            </button>
-            <span className="text-[15px]">27,500,000</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
-          <figure className=" flex justify-center items-center">
-            <img
-              className="h-[250px] object-cover"
-              src="https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f0g1ysyrxr7xeidobtg2v473j2fssqezoqvraxmp331qvlrf7oc%255blarge%255d.jpg"
-              alt="laptop01"
-            />
-          </figure>
-          <div>
-            <p className="text-[14px] text-gray-400 text-justify pb-4 px-5">
-              لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 پردازنده Core i5 13420H
-              رم 8GB حافظه 512GB SSD گرافیک Intel
-            </p>
-          </div>
-          <div className="border-t border-gray-300 flex justify-between items-center py-4 px-5">
-            <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
-              افزودن به سبد خرید
-            </button>
-            <span className="text-[15px]">27,500,000</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
-          <figure className=" flex justify-center items-center">
-            <img
-              className="h-[250px] object-cover"
-              src="https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f0g1ysyrxr7xeidobtg2v473j2fssqezoqvraxmp331qvlrf7oc%255blarge%255d.jpg"
-              alt="laptop01"
-            />
-          </figure>
-          <div>
-            <p className="text-[14px] text-gray-400 text-justify pb-4 px-5">
-              لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 پردازنده Core i5 13420H
-              رم 8GB حافظه 512GB SSD گرافیک Intel
-            </p>
-          </div>
-          <div className="border-t border-gray-300 flex justify-between items-center py-4 px-5">
-            <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
-              افزودن به سبد خرید
-            </button>
-            <span className="text-[15px]">27,500,000</span>
+            <span className="text-[15px]">{price.toLocaleString("fa")}</span>
           </div>
         </div>
       </div>
