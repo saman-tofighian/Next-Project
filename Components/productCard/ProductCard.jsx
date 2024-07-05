@@ -1,9 +1,9 @@
 function ProductCard() {
   return (
-    <section className="w-full flex flex-wrap justify-evenly">
-      <div className="w-full md:w-1/2 lg:w-2/6 xl:w-[21%]">
+    <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 px-12">
+      <div>
         <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
-          <figure className=" flex justify-center items-center">
+          <figure className="flex justify-center items-center">
             <img
               className="h-[250px] object-cover"
               src="https://meghdadit.com/_image.ashx?i=%252ffiles%252fproduct%252f0g1ysyrxr7xeidobtg2v473j2fssqezoqvraxmp331qvlrf7oc%255blarge%255d.jpg"
@@ -20,11 +20,11 @@ function ProductCard() {
             <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
               افزودن به سبد خرید
             </button>
-            <span>27,500,000</span>
+            <span className="text-[15px]">22,500,000</span>
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 lg:w-2/6 xl:w-[21%]">
+      <div>
         <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
           <figure className=" flex justify-center items-center">
             <img
@@ -43,11 +43,11 @@ function ProductCard() {
             <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
               افزودن به سبد خرید
             </button>
-            <span>27,500,000</span>
+            <span className="text-[15px]">27,500,000</span>
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 lg:w-2/6 xl:w-[21%]">
+      <div>
         <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
           <figure className=" flex justify-center items-center">
             <img
@@ -66,11 +66,11 @@ function ProductCard() {
             <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
               افزودن به سبد خرید
             </button>
-            <span>27,500,000</span>
+            <span className="text-[15px]">27,500,000</span>
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 lg:w-2/6 xl:w-[21%]">
+      <div>
         <div className="bg-white shadow-lg rounded-[10px] overflow-hidden duration-700 ease-linear hover:shadow-2xl cursor-pointer">
           <figure className=" flex justify-center items-center">
             <img
@@ -89,7 +89,7 @@ function ProductCard() {
             <button className="border-none bg-yellow-400 rounded-[10px] py-2 px-3 text-[14px] cursor-pointer duration-700 ease-linear hover:bg-yellow-300 ">
               افزودن به سبد خرید
             </button>
-            <span>27,500,000</span>
+            <span className="text-[15px]">27,500,000</span>
           </div>
         </div>
       </div>
